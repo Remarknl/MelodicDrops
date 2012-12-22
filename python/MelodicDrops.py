@@ -18,4 +18,4 @@ while var < 256:
 	print var	
 	serialLink.write('' + chr(3) + chr(0) + chr(var) + chr(3 ^ 0 ^ var))
 	var = var + 1
-	sleep(5.0)
+	sleep(1.0)
