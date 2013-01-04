@@ -1,6 +1,0 @@
-init: ser.write('' + chr(1) + chr(0) + chr(0) + chr(0))
-
-
-command waarbij var is leds in decimaal: ser.write('' + chr(3) + chr(0) + chr(var) + chr(3 ^ 0 ^ var))
-
-
