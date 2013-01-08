@@ -27,3 +27,4 @@ def setDrops(arguments):
 	serialLink.write('' + chr(1) + chr(0) + chr(0) + chr(0))
 	sleep(0.1)
 	serialLink.write('' + chr(3) + chr(0) + chr(var) + chr(3 ^ 0 ^ var))
+	print 'done'
